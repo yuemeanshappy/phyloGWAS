@@ -1,11 +1,14 @@
 # PhyloGWAS
-Use PhyloGWAS to identify genes that are associated with floral color in Pedicularis.
+Use PhyloGWAS to identify genes that are associated with floral color in *Pedicularis*.
 
 ## Basic information
-PhyloGWAS is used to identify genetic variation associate with trait evolution. More specifically, PhyloGWAS tries to find nonsynonymous variants that are shared by species with same phenotypic trait but are not in a monophyletic group. 
+PhyloGWAS is used to identify genetic variation associate with trait evolution. More specifically, PhyloGWAS tries to find **nonsynonymous variants that are shared by species with same phenotypic trait but are *not* in a monophyletic group.**
 
-PhyloGWAS is a variant of GWAS (Genome wide associate studies). Instead of sequencing more than 100 individuals of two populations with distinct phenotypic trait, PhyloGWAS divides species with distinct phenotypic trait into two groups and treats groups as "populations" in GWAS. I think "Phylo" in PhyloGWAS refers to one of its prerequisites that species belonging to the same group should not be in a monophyletic group.
+PhyloGWAS is a variant of GWAS (Genome-wide associate studies). Instead of sequencing more than 100 individuals of two populations with distinct phenotypic trait, PhyloGWAS sequences multiple species with a distinct phenotypic trait and divide these species into two groups (like "populaitons" in GWAS). It believes that these species undergo a parallell evolution under similar environmental conditions. Therefore, compared to GWAS, PhyloGWAS:
+- sequences multiple species rather than individuals
+- requires species that have same phenotypic trait are not in a monophyletic group
 
+<img src="https://github.com/yuemeanshappy/phyloGWAS/blob/main/images/gwas_and_phylogwas.jpg" alt="comparision between GWAS and PhyloGWAS" class="center" width=50%>
 
 ## Procedures
 1. 
