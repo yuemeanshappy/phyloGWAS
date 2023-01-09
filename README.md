@@ -8,8 +8,6 @@ PhyloGWAS is a variant of GWAS (Genome-wide associate studies). Instead of seque
 - sequences multiple species rather than individuals
 - requires species that have same phenotypic trait are not in a monophyletic group
 
-<img src="https://github.com/yuemeanshappy/phyloGWAS/blob/main/images/gwas_and_phylogwas.jpg" alt="comparision between GWAS and PhyloGWAS" class="center" width=50%>
-
 ## Procedures
 1. 
 
